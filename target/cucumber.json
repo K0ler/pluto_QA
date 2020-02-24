@@ -1,0 +1,758 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Create Annual cover good",
+        "description": "",
+        "id": "create-annual-cover;create-annual-cover-good",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 225534614,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(AnnualCover.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click on Annual Cover button",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Create Annual cover",
+    "description": "Existing user should be able to login to account using correct credentials",
+    "id": "create-annual-cover",
+    "keyword": "Feature",
+    "uri": "AnnualCover.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 327883,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(Login.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters a valid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User enters a valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User ssie pałe",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login into account with incorect password",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-incorect-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 339185,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(Login.feature:15)\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User enters a valid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User enters a not valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User should see message about incorrect password",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Login into account with incorect username",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-incorect-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 543835,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(Login.feature:23)\n",
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User enters a not valid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "User enters a valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "User should see message about not recognised user name",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing user should be able to login to account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5179760,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginBackGround.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User enters \"user1\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User enters \"user1\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 418701,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginBackGround.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User enters \"user1\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User enters \"user1\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 495042,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginBackGround.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User enters \"user2\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User enters \"user1\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing user should be able to login to account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "LoginBackGround.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 717612,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginExt.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enters \"user1\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters \"user1\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 414656,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginExt.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enters \"user1\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters \"user2\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630984,
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.mainPage_Steps.user_navigates_to_test_website(mainPage_Steps.java:9)\n\tat ✽.Given User navigates to test website(LoginExt.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "mainPage_Steps.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on the sign in button on homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User enters \"user2\" username",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enters \"user1\" password",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User clicks on the login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User should be taken to the successful login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing user should be able to login to account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "LoginExt.feature"
+  }
+]
